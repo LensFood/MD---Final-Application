@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="image_list">
+        <item>@drawable/pushup</item>
+        <item>@drawable/situp</item>
+        <item>@drawable/workout</item>
+        <item>@drawable/cardio</item>
+        <item>@drawable/skipping</item>
+    </integer-array>
+    <string-array name="title_list">
+        <item>Push UP</item>
+        <item>Sit UP</item>
+        <item>Workout</item>
+        <item>Cardio</item>
+        <item>Skipping</item>
+    </string-array>
+    <string-array name="desc_list">
+        <item>Deskripsi untuk Push UP</item>
+        <item>Deskripsi untuk Sit UP</item>
+        <item>Deskripsi untuk Workout</item>
+        <item>Deskripsi untuk Cardio</item>
+        <item>Deskripsi untuk Skipping</item>
+    </string-array>
+    <integer-array name="detail_image_list">
+        <item>@drawable/pushup</item>
+        <item>@drawable/situp</item>
+        <item>@drawable/workout</item>
+        <item>@drawable/cardio</item>
+        <item>@drawable/skipping</item>
+    </integer-array>
+</resources>

@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "628521274677",
+    "project_id": "lens-food-project",
+    "storage_bucket": "lens-food-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628521274677:android:63961b3c69a89ba38ed07c",
+        "android_client_info": {
+          "package_name": "com.bangkit.lensfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628521274677-kvfntgp2csp2mc4h279ml5rgkfgjb7r1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm6jADN_5EQpISDD1aT2_H5iemVxpriHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628521274677-kvfntgp2csp2mc4h279ml5rgkfgjb7r1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628521274677:android:dbf8f0849927c90e8ed07c",
+        "android_client_info": {
+          "package_name": "com.example.lensfood1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628521274677-kvfntgp2csp2mc4h279ml5rgkfgjb7r1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm6jADN_5EQpISDD1aT2_H5iemVxpriHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628521274677-kvfntgp2csp2mc4h279ml5rgkfgjb7r1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

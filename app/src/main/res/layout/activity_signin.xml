@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="48dp"
+        android:gravity="end">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_headset_mic_24">
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo">
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Let's sign up to your account"
+            android:textColor="@color/brown"
+            android:gravity="start">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:textSize="28sp"
+            android:text="Sign IN">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/HintMail"
+            android:layout_marginTop="20dp"
+            app:endIconTint="@color/brown">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:height="67dp"
+                android:drawablePadding="17dp"
+                android:drawableStart="@drawable/baseline_person_24"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/HintPass"
+            android:layout_marginTop="20dp"
+            app:endIconMode="password_toggle"
+            app:endIconTint="@color/brown">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:height="67dp"
+                android:drawablePadding="17dp"
+                android:drawableStart="@drawable/baseline_lock_24"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue"
+            android:textSize="13dp"
+            android:layout_marginTop="17dp"
+            android:gravity="end"
+            android:textStyle="italic"
+            android:text="@string/Forgotpass">
+        </TextView>
+
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="35dp"
+            android:text="@string/Signin">
+        </Button>
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/google_signin"
+            android:pointerIcon="alias"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="35dp"
+            android:text="Sign in with google"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/brown"
+                android:textSize="13dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:textStyle="italic"
+                android:text="Don't have an account">
+            </TextView>
+
+            <TextView
+                android:id="@+id/signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:textSize="13dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:textStyle="italic"
+                android:onClick="onTextViewClicked"
+                android:text="Sign up">
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

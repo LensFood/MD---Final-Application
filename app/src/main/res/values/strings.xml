@@ -1,0 +1,40 @@
+<resources>
+    <string name="client_id">628521274677-1b91bcmgm32p77br72hqirh7rot2h850.apps.googleusercontent.com</string>
+    <string name="app_name">Lens-Food</string>
+    <string name="welcome">Welcome to LensFood</string>
+    <string name="name">Kalicia</string>
+    <string name="hintUser">Enter username</string>
+    <string name="HintPass">Enter password</string>
+    <string name="HintMail">Enter Email</string>
+    <string name="haveAcc">Already have an account?</string>
+    <string name="Signup">Sign UP</string>
+    <string name="cal">Your Daily Calories</string>
+    <string name="Signin">Sign IN</string>
+    <string name="exercise1">Push UP</string>
+    <string name="exercise2">Sit UP</string>
+    <string name="exercise3">Workout</string>
+    <string name="compo">composition</string>
+    <string name="exercise4">Cardio</string>
+    <string name="exercise5">Skipping</string>
+    <string name="bmi">What is your current weight and height?</string>
+    <string name="meal">You can now scanning your meal calories!</string>
+    <string name="excer">The Calories are Equivalent to </string>
+    <string name="excer2">Click to select the type of exercise to burn calories</string>
+    <string name="congrats">Congratulations</string>
+    <string name="image_classifier_failed">Image classifier failed to initialize. See error logs for details</string>
+    <string name="stamp1">4 minutes</string>
+    <string name="stamp2">12 minutes</string>
+    <string name="stamp3">25 minutes</string>
+    <string name="stamp4">3 minutes</string>
+    <string name="Forgotpass">Forgot password ?</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="like1">Excelent Progress</string>
+    <string name="like2">Good Job</string>
+
+
+    <string name="dislike1">decreased progress</string>
+    <string name="dislike2">Never give up</string>
+
+
+</resources>
